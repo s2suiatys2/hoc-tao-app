@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Assignment GD2</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css" />
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery-mobile-1.4.5.js"></script>
+	
+</head>
+<body>
+	<div data-role="page" id='page'>
+		<div data-role="header">
+			<a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-left ui-btn-icon-notext ui-nodisc-icon"></a>
+			<h3>XPERIA</h3>
+		</div>
+		<div id="myPanel" data-role='panel' data-display='overlay'>
+			<ul data-role='listview'>
+				<li><a href="index.html">Trang chủ</a></li>
+				<li><a href="thongtinsp.html">Sản phẩm nổi bật</a></li>
+				<li><a href="gioithieu.html">Giới thiệu</a></li>
+				<li><a href="dail.hytml">Danh sách cửa hàng</a></li>
+				<li><a href="lienhe.html">Liên hệ</a></li>
+			</ul>
+		</div>
+		<div role="main" class="ui-content">
+			<img src="images/banner.jpg" />
+			<div class="lienhe">
+				<h3 class="name-sp title-lienhe">Liên hệ</h3>
+				<div class="ui-field-contain">
+					<form>
+						<label for="textinput-1">Tên:</label>
+						<input type="text" name="textinput-1" id="textinput-1" placeholder="Tên" value=""/>
+						<label for="textinput-1">Email:</label>
+						<input type="email" name="textinput-1" id="textinput-1" placeholder="Email" value=""/>
+						<label for="textarea-1">Nội dung:</label>
+						<textarea cols="40" rows="8" name="textarea-1" id="textarea-1"></textarea>
+						<input type="reset" name="reset" id="reset" value="Làm lại" />
+						<input type="submit" name="submit" id="reset" value="Gửi" />
+					</form>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer">
+			<p>Độc quyền sony XPERIA tại Việt Nam</p>
+		</div>
+	</div>
+</body>
+</html>
